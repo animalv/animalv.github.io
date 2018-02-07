@@ -80,6 +80,7 @@ aside{
   background-color: green;
   margin-top: 10px;
   border: 1px solid white;
+  text-align: justify;
 
 }
 .leftaside{
@@ -106,7 +107,7 @@ footer {
   text-align: center;
   position: fixed;
   bottom:0px;
- background-color: rgba(177, 27, 21, 0.8);
+  background-color: rgba(177, 27, 21, 0.8);
   padding: 5px;
 }
 h1.side {
@@ -119,7 +120,8 @@ h1.side {
 h1.main{
   width: 522px;
   height: 20px;
-  border-bottom: 1px solid white;
+  text-align: center;
+  padding: 5px;
   background-color: rgba(215, 44, 92, 0.3);
   color: white;
 
