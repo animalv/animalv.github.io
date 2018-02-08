@@ -1,11 +1,11 @@
 html, body, .main, .leftaside, .rightaside, main{
-  height: 100%;
+    height: 100%;
 }
 body {
- background-image: url(wallpaper.jpg);
- margin: 0px;
-  background-attachment: fixed;
-      font-family: Arial, Helvetica, sans-serif;
+    background-image: url(wallpaper.jpg);
+    margin: 0px;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 }
@@ -37,93 +37,93 @@ li a:hover {
 }
 
 li a.active {
-  background-color: #ff6600;
-  color: white;
+    background-color: #ff6600;
+    color: white;
 }
 li.FAQ {
-  float:right;
-  background-color: #FF4000;
-  color: black;
-  border-left: 1px solid white;
+    float:right;
+    background-color: #FF4000;
+    color: black;
+    border-left: 1px solid white;
 }
 header {
-  border: 1px solid white;
-  background-image: url(header.jpg);
-  text-align:center;
-  height: 180px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  background-size: cover;
+    border: 1px solid white;
+    background-image: url(photos/header.jpg);
+    text-align:center;
+    height: 180px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-size: cover;
 }
 main {
-background-color: rgba(215, 44, 44, 0.9);
-border: 1px solid white;
-margin-top: 10px; 
-  width: 500px;
-  float:left;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: center;
+    background-color: rgba(215, 44, 44, 0.9);
+    border: 1px solid white;
+    margin-top: 10px;
+    width: 500px;
+    float:left;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
 
 }
 .faq{
-  font-style: italic;
+    font-style: italic;
 }
 .main{
-  width: 1006px;
-  margin: 0px auto;
-  display: table;
-  color: white;
+    width: 1006px;
+    margin: 0px auto;
+    display: table;
+    color: white;
 
 }
 aside{
-  background-color: green;
-  margin-top: 10px;
-  border: 1px solid white;
-  text-align: justify;
+    background-color: green;
+    margin-top: 10px;
+    border: 1px solid white;
+    text-align: justify;
 
 }
 .leftaside{
-  width: 230px;
-  background-color: rgba(100, 100, 100, 0.5);
-  float:left;
-  text-align: center;
+    width: 230px;
+    background-color: rgba(100, 100, 100, 0.5);
+    float:left;
+    text-align: center;
 
 }
 .rightaside{
-  width: 230px;
-  background-color: rgba(100, 100, 100, 0.5);
-  float:left;
-  text-align: center;
+    width: 230px;
+    background-color: rgba(100, 100, 100, 0.5);
+    float:left;
+    text-align: center;
 }
 .faqmain{
-  width: 964px;
+    width:964px;
 }
 
 footer {
-  border-right: 1px solid white;
-  border-left: 1px solid white;
-  width: 994px;
-  text-align: center;
-  position: fixed;
-  bottom:0px;
-  background-color: rgba(177, 27, 21, 0.8);
-  padding: 5px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    width: 994px;
+    text-align: center;
+    position: fixed;
+    bottom:0px;
+    background-color: rgba(177, 27, 21, 0.8);
+    padding: 5px;
 }
 h1.side {
-  width:220px;
-  border-bottom: 1px solid white;
-  background-color: rgba(215, 44, 92, 0.3);
-  padding: 5px;
-  color: white;
+    width:220px;
+    border-bottom: 1px solid white;
+    background-color: rgba(215, 44, 92, 0.3);
+    padding: 5px;
+    color: white;
 }
 h1.main{
-  width: 522px;
-  height: 20px;
-  text-align: center;
-  padding: 5px;
-  background-color: rgba(215, 44, 92, 0.3);
-  color: white;
+    width: 522px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(215, 44, 92, 0.3);
+    color: white;
 
 }
 p.faq {
@@ -131,13 +131,19 @@ p.faq {
 }
 
 @media screen and (max-width: 500px) {
-  li {
-    float:none;
-      display: block;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-  }
- 
-}
+    li {
+        float:none;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li.FAQ {
+        float:right;
+        background-color: #FF4000;
+        color: black;
+        border-left: 1px solid white;
+        display: block;
+
+    }
