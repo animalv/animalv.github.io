@@ -132,25 +132,28 @@ p.faq {
 
 @media screen and (max-width: 500px) {
     li {
-        float:none;
+        float: none;
         display: block;
         color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
     }
+
     li.FAQ {
-        float:right;
+        float: right;
         background-color: #FF4000;
         color: black;
         border-left: 1px solid white;
         display: block;
 
     }
-    .main{
+
+    .main {
         width: 1006px;
         margin: 0px auto;
         display: block;
         color: white;
 
     }
+}
