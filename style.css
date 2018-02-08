@@ -147,3 +147,10 @@ p.faq {
         display: block;
 
     }
+    .main{
+        width: 1006px;
+        margin: 0px auto;
+        display: block;
+        color: white;
+
+    }
