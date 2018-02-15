@@ -138,6 +138,7 @@ p.faq {
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
+		width: 100%;
     }
 
     li.FAQ {
